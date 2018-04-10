@@ -1,0 +1,56 @@
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+2018-04-06 00:05:07 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-06 00:06:13 [2@DESKTOP-JGTU9PL]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins\fields\inc\dropdown.class.php:85           
+  plugins\fields\inc\field.class.php:98              PluginFieldsDropdown::create()
+  inc\commondbtm.class.php:891                       PluginFieldsField->prepareInputForAdd()
+  plugins\fields\front\field.form.php:14             CommonDBTM->add()
+2018-04-09 16:06:46 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 16:11:41 [@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 16:20:28 [2@DESKTOP-JGTU9PL]
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  plugins\fields\inc\dropdown.class.php:85           
+  plugins\fields\inc\field.class.php:98              PluginFieldsDropdown::create()
+  inc\commondbtm.class.php:891                       PluginFieldsField->prepareInputForAdd()
+  plugins\fields\front\field.form.php:14             CommonDBTM->add()
+2018-04-09 16:20:28 [2@DESKTOP-JGTU9PL]
+  *** PHP User Warning(512): Table glpi_plugin_fields_computerinsertarenelformularioantesdelbotnguardars does not exists
+  Backtrace :
+  :                                                  
+  inc\dbmysql.class.php:763                          trigger_error()
+  inc\migration.class.php:386                        DBmysql->fieldExists()
+  ...renelformularioantesdelbotnguardar.class.php:49 Migration->addField()
+  plugins\fields\inc\field.class.php:117             PluginFieldsComputerinsertarenelformularioantesdelbotnguardar::addField()
+  inc\commondbtm.class.php:891                       PluginFieldsField->prepareInputForAdd()
+  plugins\fields\front\field.form.php:14             CommonDBTM->add()
+2018-04-09 16:26:49 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 16:38:15 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 16:47:15 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 16:50:54 [@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 16:56:12 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 17:01:39 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 17:08:01 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-09 17:18:19 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)

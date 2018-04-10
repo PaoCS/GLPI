@@ -1,0 +1,70 @@
+2018-04-09 16:17:34 [2@DESKTOP-JGTU9PL]
+  *** MySQL query error:
+  SQL: CREATE TABLE IF NOT EXISTS `glpi_plugin_fields_computerinsertarenelformularioantesdelbotnguardars` (
+                  `id`                               INT(11)      NOT NULL auto_increment,
+                  `items_id`                         INT(11)      NOT NULL,
+                  `itemtype`                         VARCHAR(255) DEFAULT 'Computer',
+                  `plugin_fields_containers_id`      INT(11)      NOT NULL DEFAULT '2',
+                  PRIMARY KEY                        (`id`),
+                  UNIQUE INDEX `itemtype_item_container`
+                     (`itemtype`, `items_id`, `plugin_fields_containers_id`)
+               ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  Error: Incorrect table name 'glpi_plugin_fields_computerinsertarenelformularioantesdelbotnguardars'
+  Backtrace :
+  ...renelformularioantesdelbotnguardar.class.php:24 
+  plugins\fields\inc\container.class.php:398         PluginFieldsComputerinsertarenelformularioantesdelbotnguardar::install()
+  inc\commondbtm.class.php:929                       PluginFieldsContainer->post_addItem()
+  plugins\fields\front\container.form.php:12         CommonDBTM->add()
+2018-04-09 16:20:28 [2@DESKTOP-JGTU9PL]
+  *** MySQL query error:
+  SQL: ALTER TABLE `glpi_plugin_fields_computerinsertarenelformularioantesdelbotnguardars` ADD `plugin_fields_pruebafielddropdowns_id` INT(11)      NOT NULL DEFAULT 0   
+  Error: Incorrect table name 'glpi_plugin_fields_computerinsertarenelformularioantesdelbotnguardars'
+  Backtrace :
+  inc\dbmysql.class.php:216                          
+  inc\migration.class.php:640                        DBmysql->queryOrDie()
+  ...renelformularioantesdelbotnguardar.class.php:50 Migration->migrationOneTable()
+  plugins\fields\inc\field.class.php:117             PluginFieldsComputerinsertarenelformularioantesdelbotnguardar::addField()
+  inc\commondbtm.class.php:891                       PluginFieldsField->prepareInputForAdd()
+  plugins\fields\front\field.form.php:14             CommonDBTM->add()
+2018-04-09 16:55:53 [2@DESKTOP-JGTU9PL]
+  *** MySQL query error:
+  SQL: DROP TABLE IF EXISTS `glpi_plugin_fields_computerinsertarenelformularioantesdelbotnguardars`
+  Error: Incorrect table name 'glpi_plugin_fields_computerinsertarenelformularioantesdelbotnguardars'
+  Backtrace :
+  ...renelformularioantesdelbotnguardar.class.php:41 
+  plugins\fields\inc\container.class.php:468         PluginFieldsComputerinsertarenelformularioantesdelbotnguardar::uninstall()
+  inc\commondbtm.class.php:1450                      PluginFieldsContainer->pre_deleteItem()
+  plugins\fields\inc\container.class.php:165         CommonDBTM->delete()
+  plugins\fields\hook.php:139                        PluginFieldsContainer::uninstall()
+  inc\plugin.class.php:685                           plugin_fields_uninstall()
+  front\plugin.form.php:48                           Plugin->uninstall()
+2018-04-09 17:00:52 [2@DESKTOP-JGTU9PL]
+  *** MySQL query error:
+  SQL: SELECT *
+                FROM `glpi_plugin_fields_computerinsertionintheforms` WHERE plugin_fields_containers_id = 1 AND items_id = 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+  Backtrace :
+  inc\commondbtm.class.php:331                       
+  plugins\fields\inc\field.class.php:602             CommonDBTM->find()
+  plugins\fields\inc\field.class.php:499             PluginFieldsField::prepareHtmlFields()
+  plugins\fields\inc\field.class.php:579             PluginFieldsField::showDomContainer()
+  inc\plugin.class.php:1272                          PluginFieldsField::showForTab()
+  inc\commondbtm.class.php:2179                      Plugin::doHook()
+  inc\computer.class.php:537                         CommonDBTM->showFormButtons()
+  inc\commonglpi.class.php:472                       Computer->showForm()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-09 17:05:22 [2@DESKTOP-JGTU9PL]
+  *** MySQL query error:
+  SQL: SELECT *
+                FROM `glpi_plugin_fields_computerinsertionintheforms` WHERE plugin_fields_containers_id = 1 AND items_id = 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+  Backtrace :
+  inc\commondbtm.class.php:331                       
+  plugins\fields\inc\field.class.php:602             CommonDBTM->find()
+  plugins\fields\inc\field.class.php:499             PluginFieldsField::prepareHtmlFields()
+  plugins\fields\inc\field.class.php:579             PluginFieldsField::showDomContainer()
+  inc\plugin.class.php:1272                          PluginFieldsField::showForTab()
+  inc\commondbtm.class.php:2179                      Plugin::doHook()
+  inc\computer.class.php:537                         CommonDBTM->showFormButtons()
+  inc\commonglpi.class.php:472                       Computer->showForm()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
