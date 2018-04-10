@@ -1,2 +1,0 @@
-# GLPI
-FNSP
