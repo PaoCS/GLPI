@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-26 09:39+0100\n"
-"PO-Revision-Date: 2018-04-12 16:50-0500\n"
+"PO-Revision-Date: 2018-04-19 16:59-0500\n"
 "Last-Translator: Oscar Stiven Gomez Toro <oscar.gomez@clinicadeoccidente.com>, "
 "2017\n"
 "Language-Team: Spanish (Colombia) (https://www.transifex.com/glpi/teams/1637/"
@@ -1821,8 +1821,8 @@ msgstr[1] "Programas"
 #: inc/ruleimportcomputer.class.php:112 inc/search.class.php:5444
 msgid "Manufacturer"
 msgid_plural "Manufacturers"
-msgstr[0] "Manofacturador"
-msgstr[1] "Manofacturadores"
+msgstr[0] "Fabricante"
+msgstr[1] "Fabricantes"
 
 #: front/dictionnary.php:62 front/find_num.php:103 inc/cartridge.class.php:1107
 #: inc/lock.class.php:486 inc/printer.class.php:64 inc/profile.class.php:799
@@ -8086,11 +8086,11 @@ msgstr "Progresión fecha de vencimiento"
 
 #: inc/config.class.php:1345
 msgid "OK state color"
-msgstr "Correcto color de estado"
+msgstr "Color de estado satisfactorio"
 
 #: inc/config.class.php:1351
 msgid "Warning state color"
-msgstr "Cuidado color de estado"
+msgstr "Color de estado de advertencia"
 
 #: inc/config.class.php:1355
 msgid "Warning state threshold"
@@ -8098,7 +8098,7 @@ msgstr "Umbral del estado de advertencia"
 
 #: inc/config.class.php:1367
 msgid "Critical state color"
-msgstr "Color estado crítico"
+msgstr "Color de estado crítico"
 
 #: inc/config.class.php:1371
 msgid "Critical state threshold"
