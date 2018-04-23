@@ -174,3 +174,58 @@ Función no definida CronTask::cronoptimize (para cron)
 Función no definida CronTask::cronoptimize (para cron)
 2018-04-19 23:59:43 [2@DESKTOP-JGTU9PL]
 Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:17:15 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:22:45 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:31:40 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:36:44 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:41:58 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:47:20 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:52:29 [@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:54:10 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 20:59:50 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 21:16:59 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 21:25:32 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 21:34:42 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 21:40:32 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 22:00:07 [2@DESKTOP-JGTU9PL]
+  *** PHP Notice(8): Undefined index: smtp_retry_time
+  Backtrace :
+  inc\notificationmailingsetting.class.php:187       
+  inc\notificationsetting.class.php:103              NotificationMailingSetting->showFormConfig()
+  inc\commonglpi.class.php:482                       NotificationSetting::displayTabContentForItem()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-20 22:09:58 [2@DESKTOP-JGTU9PL]
+  *** PHP Notice(8): Undefined index: smtp_retry_time
+  Backtrace :
+  inc\notificationmailingsetting.class.php:187       
+  inc\notificationsetting.class.php:103              NotificationMailingSetting->showFormConfig()
+  inc\commonglpi.class.php:482                       NotificationSetting::displayTabContentForItem()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-20 22:13:01 [2@DESKTOP-JGTU9PL]
+  *** PHP Notice(8): Undefined index: smtp_retry_time
+  Backtrace :
+  inc\notificationmailingsetting.class.php:187       
+  inc\notificationsetting.class.php:103              NotificationMailingSetting->showFormConfig()
+  inc\commonglpi.class.php:482                       NotificationSetting::displayTabContentForItem()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-20 22:35:32 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 22:46:40 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-20 22:57:26 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-23 17:19:54 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
