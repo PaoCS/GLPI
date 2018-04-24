@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-26 09:39+0100\n"
-"PO-Revision-Date: 2018-04-19 16:59-0500\n"
+"PO-Revision-Date: 2018-04-24 15:39-0500\n"
 "Last-Translator: Oscar Stiven Gomez Toro <oscar.gomez@clinicadeoccidente.com>, "
 "2017\n"
 "Language-Team: Spanish (Colombia) (https://www.transifex.com/glpi/teams/1637/"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_CO\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: apirest.php:48 apixmlrpc.php:47 inc/api.class.php:102
 msgid "API disabled"
@@ -962,9 +962,8 @@ msgstr "En curso"
 #, php-format
 msgid "%s ticket in progress or recently solved on this item."
 msgid_plural "%s tickets in progress or recently solved on this item."
-msgstr[0] "%s tiquete en progreso o resuelto recientemente sobre este elemento."
-msgstr[1] ""
-"%s tiquetes en progreso o resueltos recientemente sobre este elemento."
+msgstr[0] "%s ticket en progreso o resuelto recientemente sobre este elemento."
+msgstr[1] "%s tickets en progreso o resueltos recientemente sobre este elemento."
 
 #: ajax/ticketsatisfaction.php:64 inc/entity.class.php:1043
 msgid "Create survey after"
@@ -995,7 +994,7 @@ msgstr "No especificado"
 
 #: ajax/ticketsatisfaction.php:98
 msgid "For tickets closed after"
-msgstr "Para las incidencias cerradas después"
+msgstr "Para los tickets cerrados después"
 
 #: ajax/ticketsatisfaction.php:106 inc/link.class.php:142
 msgid "Valid tags"
@@ -1496,8 +1495,8 @@ msgstr[1] "Cambios"
 #: inc/transfer.class.php:3324
 msgid "Ticket"
 msgid_plural "Tickets"
-msgstr[0] "Incidencia"
-msgstr[1] "Incidencias"
+msgstr[0] "Ticket"
+msgstr[1] "Tickets"
 
 #. TRANS: %s is the user login
 #: front/commonitilcost.form.php:62 front/contractcost.form.php:58
@@ -2427,7 +2426,7 @@ msgstr "publicar"
 #: front/helpdesk.public.php:96 front/ticket.form.php:233
 #: inc/notificationtargetticket.class.php:224 inc/ticket.class.php:4603
 msgid "New ticket"
-msgstr "Nueva incidencia"
+msgstr "Nuevo ticket "
 
 #: front/helpdesk.public.php:101 inc/html.class.php:1487 inc/html.class.php:1640
 #: inc/html.class.php:1714 inc/html.class.php:6043 inc/html.class.php:6158
@@ -3291,7 +3290,7 @@ msgstr "Encuesta de satisfacción"
 
 #: front/stat.global.php:165 front/stat.graph.php:439 inc/stat.class.php:1214
 msgid "Tickets"
-msgstr "Incidencias"
+msgstr "Tickets"
 
 #: front/stat.global.php:168 front/stat.graph.php:442 inc/stat.class.php:453
 msgctxt "survey"
@@ -3514,7 +3513,7 @@ msgstr "Siguiente"
 #: front/stat.graph.php:414 inc/commonitilobject.class.php:4594
 #: inc/stat.class.php:470 inc/ticket.class.php:7613
 msgid "Take into account"
-msgstr "Atención de la incidencia"
+msgstr "Atención del ticket"
 
 #: front/stat.location.php:106 front/stat.tracking.php:134
 msgid "Show graphics"
@@ -3674,7 +3673,7 @@ msgstr "%s limpiar un seguimiento"
 
 #: front/ticket.form.php:109
 msgid "You have been redirected because you no longer have access to this ticket"
-msgstr "Usted ha sido redireccionado porque ya no tiene acceso a esta incidencia"
+msgstr "Usted ha sido redireccionado porque ya no tiene acceso a este ticket"
 
 #: front/ticket.form.php:227
 msgid "Save solution to the knowledge base"
@@ -3702,11 +3701,11 @@ msgstr "%s agregar campo predefinido"
 #: front/ticket_ticket.form.php:53
 #, php-format
 msgid "%s purges link between tickets"
-msgstr "%s limpiar vínculos entre incidencias"
+msgstr "%s limpiar vínculos entre tickets"
 
 #: front/tracking.injector.php:75 inc/ticket.class.php:2192
 msgid "Your ticket has been registered, its treatment is in progress."
-msgstr "Su incidencia ha sido registrada, su tratamiento está en progreso."
+msgstr "Su ticket ha sido registrado, su tratamiento está en progreso."
 
 #: front/tracking.injector.php:80 inc/config.class.php:2464
 #: inc/config.class.php:2484 inc/html.class.php:5304 inc/html.class.php:5463
@@ -5916,18 +5915,18 @@ msgstr[1] "Cambiar tareas"
 #: inc/change_ticket.class.php:66
 msgid "Link Ticket/Change"
 msgid_plural "Links Ticket/Change"
-msgstr[0] "Enlace a Tiquete/Cambio"
-msgstr[1] "Enlaces a Tiquetes/Cambios"
+msgstr[0] "Enlace a Ticket/Cambio"
+msgstr[1] "Enlaces a Tickets/Cambios"
 
 #: inc/change_ticket.class.php:266 inc/problem_ticket.class.php:300
 #: inc/projecttask_ticket.class.php:176
 msgid "Add a ticket"
-msgstr "Agregar una incidencia"
+msgstr "Agregar un ticket"
 
 #: inc/change_ticket.class.php:290 inc/commonitilobject.class.php:4323
 #: inc/problem_ticket.class.php:330
 msgid "Solve tickets"
-msgstr "Incidentes resueltos"
+msgstr "Tickets resueltos"
 
 #: inc/change_ticket.class.php:292 inc/commonitiltask.class.php:1706
 #: inc/problem.class.php:406 inc/problem_ticket.class.php:332
@@ -5937,7 +5936,7 @@ msgstr "Agregar una nueva tarea"
 
 #: inc/change_ticket.class.php:381
 msgid "Create a change from this ticket"
-msgstr "Crear un cambio desde esta incidencia"
+msgstr "Crear un cambio desde este ticket"
 
 #: inc/commondbchild.class.php:239 inc/networkportinstantiation.class.php:534
 msgid "Item not linked to an object"
@@ -6198,7 +6197,7 @@ msgstr "Actualizar las notas del elemento"
 #: inc/commondbtm.class.php:4842
 #, php-format
 msgid "Document Ticket %d"
-msgstr "Documento de incidencia %d"
+msgstr "Documento del ticket%d"
 
 #: inc/commondbtm.class.php:4935
 msgid "You can define an autofill template"
@@ -6475,8 +6474,8 @@ msgstr "Agregar un nuevo costo"
 #: inc/profile.class.php:2231
 msgid "Ticket cost"
 msgid_plural "Ticket costs"
-msgstr[0] "Costo de tiquete"
-msgstr[1] "Costos de tiquetes"
+msgstr[0] "Costo del ticket"
+msgstr[1] "Costos de los tickets"
 
 #: inc/commonitilcost.class.php:539
 msgid "Item duration"
@@ -6717,7 +6716,7 @@ msgstr "Usuario observador"
 #: inc/commonitilobject.class.php:3291
 #: inc/notificationtargetcommonitilobject.class.php:557
 msgid "Group in charge of the ticket"
-msgstr "Grupo encargado de la incidencia"
+msgstr "Grupo encargado del ticket"
 
 #: inc/commonitilobject.class.php:3789 inc/planning.class.php:1351
 msgid "Actor"
@@ -6732,7 +6731,7 @@ msgid ""
 "Warning: non closed children tickets depends on current ticket. Are you sure "
 "you want to close it?"
 msgstr ""
-"Advertencia: tickets hijo no cerrados dependen del ticket actual. Esta seguro "
+"Advertencia: tickets hijos no cerrados dependen del ticket actual. Esta seguro "
 "que desea cerrarlo?"
 
 #: inc/commonitilobject.class.php:4235 inc/commonitilobject.class.php:4329
@@ -7082,7 +7081,7 @@ msgstr "Comentario de la aprobación"
 
 #: inc/commonitilvalidation.class.php:829
 msgid "Approvals for the ticket"
-msgstr "Aprobación(es) para la incidencia"
+msgstr "Aprobación(es) para los tickets"
 
 #: inc/commonitilvalidation.class.php:837 inc/ruleticket.class.php:620
 #: inc/ruleticket.class.php:626 inc/ruleticket.class.php:632
@@ -7899,25 +7898,25 @@ msgstr "Usted perderá el formato de sus datos"
 
 #: inc/config.class.php:867
 msgid "Default heading when adding a document to a ticket"
-msgstr "Asunto por defecto para los documentos relacionados con las incidencias"
+msgstr "Asunto por defecto para los documentos relacionados con los tickets"
 
 #: inc/config.class.php:872
 msgid "By default, a software may be linked to a ticket"
-msgstr "Por defecto, un software se puede enlazar a un caso"
+msgstr "Por defecto, un software se puede enlazar a un ticket"
 
 #: inc/config.class.php:880
 msgid "Keep tickets when purging hardware in the inventory"
-msgstr "Conservar las incidencias al borrar un elemento del inventario"
+msgstr "Conservar los tickets al borrar un elemento del inventario"
 
 #: inc/config.class.php:882
 msgid "Show personnal information in new ticket form (simplified interface)"
 msgstr ""
-"Mostrar información personal en el nuevo formulario del incidente (interfaz "
+"Mostrar información personal en el nuevo formulario del ticket(interfaz "
 "simplificada)"
 
 #: inc/config.class.php:888
 msgid "Allow anonymous ticket creation (helpdesk.receiver)"
-msgstr "Permitir la apertura de incidencias anónimas (helpdesk.html)"
+msgstr "Permitir la apertura anónima de tickets (helpdesk.html)"
 
 #: inc/config.class.php:890
 msgid "Allow anonymous followups (receiver)"
@@ -8025,7 +8024,7 @@ msgstr "Seguimiento privado por defecto"
 
 #: inc/config.class.php:1218
 msgid "Show new tickets on the home page"
-msgstr "Mostrar las incidencias nuevas al entrar en el sistema"
+msgstr "Mostrar los tickets nuevas al entrar en el sistema"
 
 #: inc/config.class.php:1227
 msgid "Private tasks by default"
@@ -8041,11 +8040,11 @@ msgstr "Estado de tareas por omisión"
 
 #: inc/config.class.php:1238
 msgid "Automatically refresh the list of tickets (minutes)"
-msgstr "Automáticamente refresca la lista de incidencias (minutos)"
+msgstr "Automáticamente refresca la lista de tickets (minutos)"
 
 #: inc/config.class.php:1247
 msgid "Pre-select me as a technician when creating a ticket"
-msgstr "Pre-asignarme como técnico cuando se cree una incidencia"
+msgstr "Pre-asignarme como técnico cuando se cree un ticket"
 
 #: inc/config.class.php:1254
 msgid "Pre-select me as a requester when creating a ticket"
@@ -10477,13 +10476,13 @@ msgstr "Enviar certificado de alarmas antes"
 #: inc/ticketrecurrent.class.php:248 inc/tickettemplate.class.php:140
 msgid "Ticket template"
 msgid_plural "Ticket templates"
-msgstr[0] "Plantilla de incidencia"
-msgstr[1] "Plantillas de incidencias"
+msgstr[0] "Plantilla del ticket"
+msgstr[1] "Plantillas de los tickets"
 
 #: inc/entity.class.php:910 inc/entity.class.php:2217
 #: inc/notificationtargetticket.class.php:767
 msgid "Automatic closing of solved tickets after"
-msgstr "Cierre administrativo de las incidencias después de resueltas"
+msgstr "Cierre administrativo de los tickets  después de resueltos"
 
 #: inc/entity.class.php:921 inc/entity.class.php:2221
 msgid "Immediatly"
@@ -10491,15 +10490,15 @@ msgstr "Inmediatamente"
 
 #: inc/entity.class.php:929
 msgid "Alerts on tickets which are not solved"
-msgstr "Alertas de incidencias que no están resueltas desde"
+msgstr "Alertas de los tickets que no están resueltos desde"
 
 #: inc/entity.class.php:939 inc/entity.class.php:2194
 msgid "Automatic assignment of tickets"
-msgstr "Asignación automática de incidencias"
+msgstr "Asignación automática de los tickets"
 
 #: inc/entity.class.php:959 inc/entity.class.php:2176
 msgid "Tickets default type"
-msgstr "Tipo por defecto para las incidencias"
+msgstr "Tipo por defecto para los tickets"
 
 #: inc/entity.class.php:984 inc/entity.class.php:1514 inc/infocom.class.php:1058
 #: inc/infocom.class.php:1430 inc/infocom.class.php:1664
@@ -10647,7 +10646,7 @@ msgstr[1] "Reservas"
 
 #: inc/entity.class.php:1985
 msgid "Alerts on tickets which are not solved since"
-msgstr "Alertas de incidencias que no están resueltas desde"
+msgstr "Alertas de los tickets que no están resueltas desde"
 
 #: inc/entity.class.php:2155 inc/entity.class.php:2168 inc/entity.class.php:2721
 #: inc/levelagreement.class.php:486 inc/slm.class.php:123
@@ -10883,7 +10882,7 @@ msgstr "Elementos administrados"
 
 #: inc/group.class.php:262
 msgid "Visible in a ticket"
-msgstr "Visible en una incidencia"
+msgstr "Visible en un ticket"
 
 #: inc/group.class.php:282 inc/group.class.php:494
 msgid "Can be notified"
@@ -11304,7 +11303,7 @@ msgstr "Coloque un marcador"
 
 #: inc/html.class.php:5995 inc/profile.class.php:2161 inc/ticket.class.php:5824
 msgid "Create a ticket"
-msgstr "Crear una incidencia"
+msgstr "Crear un ticket"
 
 #: inc/html.class.php:6131
 msgid "Plugins"
@@ -11438,7 +11437,7 @@ msgstr "Coeficiente de amortización"
 
 #: inc/infocom.class.php:1198
 msgid "TCO (value + tracking cost)"
-msgstr "CTP (precio de compra + costo de incidencias)"
+msgstr "CTP (precio de compra + costo de los tickets)"
 
 #: inc/infocom.class.php:1207
 msgid "Monthly TCO"
@@ -11790,7 +11789,7 @@ msgstr "Incidencia"
 #: inc/notificationtargetticket.class.php:792 inc/ticket.class.php:3484
 #: inc/ticket.class.php:3502
 msgid "Request"
-msgstr "Requerimiento"
+msgstr "Solicitud"
 
 #: inc/knowbase.class.php:70
 msgctxt "button"
@@ -12452,7 +12451,7 @@ msgstr "Utilice fecha de envió, en lugar de colectar uno"
 #: inc/mailcollector.class.php:324
 msgctxt "button"
 msgid "Get email tickets now"
-msgstr "Recuperar incidencias recibidas por e-mail ahora"
+msgstr "Recuperar tickets recibidos por e-mail ahora"
 
 #: inc/mailcollector.class.php:488
 #, php-format
@@ -13383,7 +13382,7 @@ msgstr ""
 
 #: inc/notificationmailingsetting.class.php:125
 msgid "Add documents into ticket notifications"
-msgstr "Añadir documentos a las notificaciones de incidencias"
+msgstr "Añadir documentos a las notificaciones de los tickets"
 
 #: inc/notificationmailingsetting.class.php:142
 msgid "Way of sending emails"
@@ -13647,7 +13646,7 @@ msgstr "Técnico anteriormente encargado del servicio"
 
 #: inc/notificationtargetcommonitilobject.class.php:543
 msgid "Manager of the group in charge of the ticket"
-msgstr "Administrador del grupo a cargo de la incidencia"
+msgstr "Administrador del grupo a cargo del ticket"
 
 #: inc/notificationtargetcommonitilobject.class.php:545
 msgid "Group in charge of the ticket except manager users"
@@ -13663,7 +13662,7 @@ msgstr "Grupo solicitante, excepto los usuarios administradores"
 
 #: inc/notificationtargetcommonitilobject.class.php:553
 msgid "Technician in charge of the ticket"
-msgstr "Técnico a cargo de la incidencia"
+msgstr "Técnico a cargo del ticket"
 
 #: inc/notificationtargetcommonitilobject.class.php:556
 #: inc/notificationtargetreservation.class.php:62
@@ -14089,7 +14088,7 @@ msgstr[1] "Proyectos"
 
 #: inc/notificationtargetprojecttask.class.php:474 inc/projecttask.class.php:610
 msgid "Tickets duration"
-msgstr "Duración de las incidencias"
+msgstr "Duración de los tickets "
 
 #: inc/notificationtargetreservation.class.php:49
 msgid "New reservation"
@@ -14142,7 +14141,7 @@ msgstr "Para responder por correo, escriba después de esta línea"
 
 #: inc/notificationtargetticket.class.php:225
 msgid "Update of a ticket"
-msgstr "Actualización de una incidencia"
+msgstr "Actualización de un ticket"
 
 #: inc/notificationtargetticket.class.php:226
 msgid "Ticket solved"
@@ -14154,7 +14153,7 @@ msgstr "Solución rechazada"
 
 #: inc/notificationtargetticket.class.php:230
 msgid "New followup"
-msgstr "Nuevo seguimiento para esta incidencia"
+msgstr "Nuevo seguimiento para este ticket"
 
 #: inc/notificationtargetticket.class.php:231
 msgid "Update of a followup"
@@ -14166,11 +14165,11 @@ msgstr "Borrado de seguimiento"
 
 #: inc/notificationtargetticket.class.php:236
 msgid "Closing of the ticket"
-msgstr "Cierre de una incidencia"
+msgstr "Cierre de un ticket"
 
 #: inc/notificationtargetticket.class.php:237
 msgid "Deletion of a ticket"
-msgstr "Borrado de una incidencia"
+msgstr "Borrado de un ticket"
 
 #: inc/notificationtargetticket.class.php:238
 #: inc/notificationtargetticket.class.php:890 inc/ticket.class.php:6336
@@ -14247,7 +14246,7 @@ msgstr "Numero de seguimientos"
 #: inc/notificationtargetticket.class.php:763
 msgctxt "quantity"
 msgid "Number of linked tickets"
-msgstr "Número de incidencias asociadas"
+msgstr "Número de los tickets asociadas"
 
 #: inc/notificationtargetticket.class.php:776
 msgid "Solution rejection comment"
@@ -14623,7 +14622,7 @@ msgstr "Su planeación"
 #: inc/planning.class.php:2176
 #, php-format
 msgid "Ticket #%1$s %2$s"
-msgstr "Incidencia #%1$s %2$s"
+msgstr "Ticket#%1$s %2$s"
 
 #: inc/planning.class.php:2223
 msgid "See personnal planning"
@@ -14937,7 +14936,7 @@ msgstr[1] "Asocia Tiquetes/Problemas"
 
 #: inc/problem_ticket.class.php:426
 msgid "Create a problem from this ticket"
-msgstr "Crear un problema desde esta incidencia"
+msgstr "Crear un problema desde este ticket"
 
 #: inc/profile.class.php:98 inc/profile.class.php:103
 msgid "Life cycles"
@@ -14975,7 +14974,7 @@ msgstr "Actualizar contraseña"
 
 #: inc/profile.class.php:614 inc/profile.class.php:1545
 msgid "Ticket creation form on login"
-msgstr "Crear incidencia desde el inicio de sesión"
+msgstr "Crear ticket desde el inicio de sesión"
 
 #: inc/profile.class.php:662 inc/profile.class.php:1046
 msgid "Association"
@@ -14989,16 +14988,16 @@ msgstr "Ver hardware de mis grupos"
 #: inc/profile.class.php:671 inc/profile.class.php:1056
 #: inc/profile.class.php:2245
 msgid "Link with items for the creation of tickets"
-msgstr "Relación con elementos para la apertura de incidencias"
+msgstr "Relación con elementos para la apertura de tickets"
 
 #: inc/profile.class.php:679 inc/profile.class.php:1064
 #: inc/profile.class.php:2254
 msgid "Associable items to a ticket"
-msgstr "Elementos asociables con una incidencia"
+msgstr "Elementos asociables con un ticket"
 
 #: inc/profile.class.php:687 inc/profile.class.php:994 inc/profile.class.php:2175
 msgid "Default ticket template"
-msgstr "Plantilla de incidencia predeterminada"
+msgstr "Plantilla de ticket predeterminada"
 
 #: inc/profile.class.php:744 inc/profile.class.php:929 inc/profile.class.php:2350
 #: inc/reminder.class.php:1083 inc/reminder.class.php:1085
@@ -15057,7 +15056,7 @@ msgstr "Desde \\ A"
 #: inc/profile.class.php:1180 inc/profile.class.php:1281
 #: inc/profile.class.php:2275
 msgid "Life cycle of tickets"
-msgstr "Ciclo de vida de las incidencias"
+msgstr "Ciclo de vida de los tickets "
 
 #: inc/profile.class.php:1183 inc/profile.class.php:2285
 msgid "Life cycle of problems"
@@ -15080,7 +15079,7 @@ msgstr "Reglas de asignación de un computador a una entidad"
 #: inc/rulemailcollector.class.php:61
 #: inc/rulemailcollectorcollection.class.php:50
 msgid "Rules for assigning a ticket created through a mails receiver"
-msgstr "Reglas para asignar una incidencia creada por correo"
+msgstr "Reglas para asignar un ticket creado por correo"
 
 #: inc/profile.class.php:1354 inc/profile.class.php:2014
 msgid "Rules for assigning a category to a software"
@@ -15088,7 +15087,7 @@ msgstr "Reglas para asignar una categoria a un software"
 
 #: inc/profile.class.php:1357
 msgid "Business rules for tickets (entity)"
-msgstr "Reglas de negocio para las incidencias (entidad)"
+msgstr "Reglas de negocio para los tickets (entidad)"
 
 #: inc/profile.class.php:1367 inc/profile.class.php:1375
 #: inc/profile.class.php:2042
@@ -15120,7 +15119,7 @@ msgstr "Titulos de entidad"
 #: inc/profile.class.php:1957 inc/ruleticket.class.php:54
 #: inc/ruleticketcollection.class.php:70
 msgid "Business rules for tickets"
-msgstr "Reglas de negocio para las incidencias"
+msgstr "Reglas de negocio para los tickets"
 
 #: inc/profile.class.php:2536
 msgid "No access"
@@ -15364,7 +15363,7 @@ msgstr[1] "Referencias a tareas de tiquete/proyecto"
 
 #: inc/projecttask_ticket.class.php:192
 msgid "Create a ticket from this task"
-msgstr "Crear una incidencia a partir de esta tarea"
+msgstr "Crear un ticket a partir de esta tarea"
 
 #: inc/queuednotification.class.php:84
 msgctxt "button"
@@ -16117,7 +16116,7 @@ msgstr "TAG de la entidad"
 #: inc/ruledictionnarysoftware.class.php:123 inc/software.class.php:285
 #: inc/software.class.php:569
 msgid "Associable to a ticket"
-msgstr "Asociable a una incidencia"
+msgstr "Asociable a un ticket"
 
 #: inc/ruledictionnarysoftwarecollection.class.php:85
 msgid "Warning before running rename based on the dictionary rules"
@@ -16326,7 +16325,7 @@ msgstr "Grupo de elemento"
 
 #: inc/ruleticket.class.php:388
 msgid "Ticket location"
-msgstr "Ubicación de la incidencia"
+msgstr "Ubicación del ticket"
 
 #: inc/ruleticket.class.php:637
 msgid "Approval request to requester group manager"
@@ -16343,7 +16342,7 @@ msgstr "Negocio papá"
 
 #: inc/ruleticket.class.php:673
 msgid "Business rules for ticket (entity parent)"
-msgstr "Reglas del negocio para incidencia (entidad papá)"
+msgstr "Reglas del negocio para ticket (entidad papá)"
 
 #: inc/savedsearch_alert.class.php:56
 msgid "Saved search alert"
@@ -16774,23 +16773,23 @@ msgstr "Agregar una versión"
 
 #: inc/stat.class.php:418
 msgid "Real duration of treatment of the ticket"
-msgstr "Duración de la incidencia (real)"
+msgstr "Duración del ticket (real)"
 
 #: inc/stat.class.php:430
 msgid "Number of opened tickets"
-msgstr "Número de incidencias abiertas"
+msgstr "Número de tickets abiertos"
 
 #: inc/stat.class.php:431
 msgid "Number of solved tickets"
-msgstr "Número de incidencias resueltas"
+msgstr "Número de tickets resueltos"
 
 #: inc/stat.class.php:432
 msgid "Number of late tickets"
-msgstr "Número de incidencias atrasadas"
+msgstr "Número de tickets atrasados"
 
 #: inc/stat.class.php:433
 msgid "Number of closed tickets"
-msgstr "Número de incidencias cerradas"
+msgstr "Número de tickets cerrados"
 
 #: inc/stat.class.php:444
 msgid "Number of opened satisfaction survey"
@@ -16822,11 +16821,11 @@ msgstr "Tiempo promedio de cierre"
 
 #: inc/stat.class.php:478
 msgid "Average real duration of treatment of the ticket"
-msgstr "Duración real promedio del tratamiento de una incidencia"
+msgstr "Duración real promedio del tratamiento de un ticket"
 
 #: inc/stat.class.php:481
 msgid "Total real duration of treatment of the ticket"
-msgstr "Duración Total Real del tratamiento de una incidencia"
+msgstr "Duración Total Real del tratamiento de un ticket"
 
 #: inc/stat.class.php:676
 msgid "No statistics are available"
@@ -16838,7 +16837,7 @@ msgstr "Número de Incidencias"
 
 #: inc/stat.class.php:1218
 msgid "By ticket"
-msgstr "Por incidencias"
+msgstr "Por ticket"
 
 #: inc/stat.class.php:1220
 msgid "By hardware characteristics"
@@ -16951,7 +16950,7 @@ msgstr "el siguiente formulario"
 
 #: inc/ticket.class.php:210
 msgid "Create ticket"
-msgstr "Crear incidencia"
+msgstr "Crear ticket"
 
 #: inc/ticket.class.php:700 inc/ticket.class.php:727
 msgid "Created tickets"
@@ -16959,7 +16958,7 @@ msgstr "Incidencia creada"
 
 #: inc/ticket.class.php:796
 msgid "Processing ticket"
-msgstr "Procesando incidencia"
+msgstr "Procesando ticket"
 
 #: inc/ticket.class.php:859
 msgid "Satisfaction survey expired"
@@ -16995,7 +16994,7 @@ msgstr "Solicitud de validación"
 #: inc/ticket.class.php:2659
 msgctxt "button"
 msgid "Link tickets"
-msgstr "Asociar incidencias"
+msgstr "Asociar tickets"
 
 #: inc/ticket.class.php:2698
 msgid "Time to own + Progress"
@@ -17038,7 +17037,7 @@ msgstr "Tiempo en atender el servicio"
 
 #: inc/ticket.class.php:3201
 msgid "All linked tickets"
-msgstr "Todas las incidencias enlazadas"
+msgstr "Todos los tickets enlazados"
 
 #: inc/ticket.class.php:3215
 msgid "Duplicated tickets"
@@ -17046,11 +17045,11 @@ msgstr "Incidencias duplicadas"
 
 #: inc/ticket.class.php:3230
 msgid "Number of all linked tickets"
-msgstr "Número de todas las incidencias enlazadas"
+msgstr "Número de todos los tickets enlazados"
 
 #: inc/ticket.class.php:3243
 msgid "Number of duplicated tickets"
-msgstr "Número de incidencias duplicadas"
+msgstr "Número de tickets duplicados"
 
 #: inc/ticket.class.php:3258
 msgid "Parent tickets"
@@ -17062,11 +17061,11 @@ msgstr "Incidencias hijas"
 
 #: inc/ticket.class.php:3303
 msgid "Number of sons tickets"
-msgstr "Número de incidencias hijas"
+msgstr "Número de tickets hijos"
 
 #: inc/ticket.class.php:3319
 msgid "Number of parent tickets"
-msgstr "Número de incidencias padres"
+msgstr "Número de tickets padres"
 
 #: inc/ticket.class.php:3341
 msgid "Problems"
@@ -17078,7 +17077,7 @@ msgstr "Incidencias esperando aprobación"
 
 #: inc/ticket.class.php:3758
 msgid "This ticket concerns me"
-msgstr "Esta incidencia me implica"
+msgstr "Este ticket me implica"
 
 #: inc/ticket.class.php:3780 inc/ticket.class.php:3810
 msgid "Check your personnal information"
@@ -17120,7 +17119,7 @@ msgstr "Documentos por defecto:"
 
 #: inc/ticket.class.php:5477 inc/ticket.class.php:5649
 msgid "Your tickets to close"
-msgstr "Sus incidencias a cerrar"
+msgstr "Sus tickets a cerrar"
 
 #: inc/ticket.class.php:5493 inc/ticket.class.php:5560
 msgid "Tickets on pending status"
@@ -17136,19 +17135,19 @@ msgstr "Sus incidentes observados"
 
 #: inc/ticket.class.php:5542 inc/ticket.class.php:5716
 msgid "Your tickets in progress"
-msgstr "Sus incidencias en curso"
+msgstr "Sus tickets en curso"
 
 #: inc/ticket.class.php:5603
 msgid "Your tickets to validate"
-msgstr "Sus incidencias por validar"
+msgstr "Sus tickets por validar"
 
 #: inc/ticket.class.php:5620
 msgid "Your rejected tickets"
-msgstr "Sus incidencias rechazadas"
+msgstr "Sus tickets rechazados"
 
 #: inc/ticket.class.php:5827
 msgid "Ticket followup"
-msgstr "Seguimiento de incidencia"
+msgstr "Seguimiento de ticket"
 
 #. TRANS: %d is the number of new tickets
 #: inc/ticket.class.php:5879
@@ -17160,15 +17159,15 @@ msgstr[1] "%d nuevos tiquetes"
 
 #: inc/ticket.class.php:5895 inc/ticket.class.php:6099 inc/ticket.class.php:6149
 msgid "No ticket found."
-msgstr "No se han enontrado incidencias."
+msgstr "No se han enontrado tickets."
 
 #: inc/ticket.class.php:5979
 msgid "Last tickets"
-msgstr "última(s) incidencia(s)"
+msgstr "Últimos tickets"
 
 #: inc/ticket.class.php:6060 inc/ticket.class.php:6072
 msgid "New ticket for this item..."
-msgstr "Nueva incidencia para este elemento..."
+msgstr "Nuevo ticket para este elemento..."
 
 #: inc/ticket.class.php:6088
 #, php-format
@@ -17179,7 +17178,7 @@ msgstr[1] "Últimos %d tiquetes"
 
 #: inc/ticket.class.php:6094
 msgid "You don't have right to see all tickets"
-msgstr "No tiene permiso para ver todas las incidencias"
+msgstr "No tiene permiso para ver todos los tickets"
 
 #: inc/ticket.class.php:6139
 msgid "Ticket on linked items"
@@ -17189,7 +17188,7 @@ msgstr[1] "Tiquetes en elementos asociados"
 
 #: inc/ticket.class.php:6250
 msgid "No ticket in progress."
-msgstr "No hay incidencias pendientes."
+msgstr "No hay tickets pendientes."
 
 #: inc/ticket.class.php:6307
 msgid "Assign equipment"
@@ -17197,7 +17196,7 @@ msgstr "Asignar equipo"
 
 #: inc/ticket.class.php:6333
 msgid "Automatic tickets closing"
-msgstr "Cerrado automático de incidencias"
+msgstr "Cerrado automático de tickets"
 
 #: inc/ticket.class.php:6339
 msgid "Generation of satisfaction surveys"
@@ -17205,7 +17204,7 @@ msgstr "Generación de encuestas de satisfacción"
 
 #: inc/ticket.class.php:6553
 msgid "See my ticket"
-msgstr "Ver mis incidencias"
+msgstr "Ver mis tickets"
 
 #. TRANS: short for : See tickets created by my groups
 #: inc/ticket.class.php:6555
@@ -17214,11 +17213,11 @@ msgstr "Ver incidentes del grupo"
 
 #: inc/ticket.class.php:6556
 msgid "See tickets created by my groups"
-msgstr "Visualizar incidencias creadas por mi grupo"
+msgstr "Visualizar tickets creados por mi grupo"
 
 #: inc/ticket.class.php:6558
 msgid "See all tickets"
-msgstr "Visualizar todas las incidencias"
+msgstr "Visualizar todos los tickets"
 
 #. TRANS: short for : See assigned tickets (group associated)
 #: inc/ticket.class.php:6560
@@ -17227,11 +17226,11 @@ msgstr "Ver asignadas"
 
 #: inc/ticket.class.php:6561
 msgid "See assigned tickets"
-msgstr "Ver incidencias asignadas"
+msgstr "Ver tickets asignados"
 
 #: inc/ticket.class.php:6564
 msgid "Assign a ticket"
-msgstr "Asignar una incidencia"
+msgstr "Asignar un ticket"
 
 #. TRANS: short for : Steal a ticket
 #: inc/ticket.class.php:6566
@@ -17240,7 +17239,7 @@ msgstr "Robar"
 
 #: inc/ticket.class.php:6567
 msgid "Steal a ticket"
-msgstr "Quitar una incidencia"
+msgstr "Quitar un ticket"
 
 #. TRANS: short for : To be in charge of a ticket
 #: inc/ticket.class.php:6569
@@ -17249,7 +17248,7 @@ msgstr "A cargo"
 
 #: inc/ticket.class.php:6570
 msgid "To be in charge of a ticket"
-msgstr "Estar a cargo de una incidencia"
+msgstr "Estar a cargo de un ticket"
 
 #: inc/ticket.class.php:6571
 msgid "Change the priority"
@@ -17257,11 +17256,11 @@ msgstr "Cambiar la prioridad"
 
 #: inc/ticket.class.php:6572
 msgid "Approve solution/Reply survey (my ticket)"
-msgstr "Aprobar solución/Responder encuesta (mi incidencia)"
+msgstr "Aprobar solución/Responder encuesta (mi ticket)"
 
 #: inc/ticket.class.php:6573
 msgid "Approve solution and reply to survey for ticket created by me"
-msgstr "Aprobar solución y responder encuesta de una incidencia creada por mi"
+msgstr "Aprobar solución y responder encuesta de un ticket creado por mi"
 
 #: inc/ticket.class.php:7096
 #, php-format
@@ -17291,7 +17290,7 @@ msgstr "Solución aprobada"
 
 #: inc/ticketfollowup.class.php:380 inc/ticketfollowup.class.php:653
 msgid "If you want to reopen the ticket, you must specify a reason"
-msgstr "Si desea volver a abrir la incidencia, debe especificar una razón"
+msgstr "Si desea volver a abrir el ticket, debe especificar una razón"
 
 #: inc/ticketfollowup.class.php:384
 msgid "If you reject the solution, you must specify a reason"
@@ -17303,11 +17302,11 @@ msgstr "Origen del seguimiento"
 
 #: inc/ticketfollowup.class.php:909
 msgid "Reopen the ticket"
-msgstr "Volver a abrir un incidencia"
+msgstr "Volver a abrir un ticket"
 
 #: inc/ticketfollowup.class.php:921
 msgid "No followup for this ticket."
-msgstr "No hay seguimiento para esta incidencia."
+msgstr "No hay seguimiento para este ticket."
 
 #: inc/ticketfollowup.class.php:935
 msgid "This week"
@@ -17352,7 +17351,7 @@ msgstr "Actualizar todo"
 
 #: inc/ticketfollowup.class.php:1218
 msgid "Add to all tickets"
-msgstr "Añadir a todas las incidencias"
+msgstr "Añadir a todos los tickets"
 
 #: inc/ticketfollowup.class.php:1219 inc/tickettask.class.php:246
 msgid "See private ones"
@@ -17364,7 +17363,7 @@ msgstr "Añadir seguimeinto (grupos asociados)"
 
 #: inc/ticketfollowup.class.php:1224
 msgid "Add a followup to tickets of associated groups"
-msgstr "Agregar un seguimiento a las incidencias de los grupos asociados"
+msgstr "Agregar un seguimiento a los tickets de los grupos asociados"
 
 #: inc/ticketfollowup.class.php:1225
 msgid "Update followups (author)"
@@ -17376,7 +17375,7 @@ msgstr "Añadir seguimiento (solicitante)"
 
 #: inc/ticketfollowup.class.php:1227
 msgid "Add a followup to tickets (requester)"
-msgstr "Añadir un seguimiento a las incidencias (autor)"
+msgstr "Añadir un seguimiento a los tickets (autor)"
 
 #: inc/ticketfollowup.class.php:1228 inc/tickettask.class.php:249
 msgid "See public ones"
@@ -17413,11 +17412,11 @@ msgstr "Fallo la creacion del incidente (verifique campos obligatorios)"
 
 #: inc/ticketrecurrent.class.php:509
 msgid "Ticket creation failed (no template)"
-msgstr "La creación de la incidencia Falló (No hay plantilla)"
+msgstr "La creación del ticket Falló (No hay plantilla)"
 
 #: inc/ticketsatisfaction.class.php:123
 msgid "Satisfaction with the resolution of the ticket"
-msgstr "Satisfaccción con la solución de la incidencia"
+msgstr "Satisfacción con la solución del ticket"
 
 #: inc/tickettask.class.php:51
 msgid "Ticket task"
@@ -18011,7 +18010,7 @@ msgstr "Numero de incidentes escritos"
 
 #: inc/user.class.php:3055
 msgid "Number of assigned tickets"
-msgstr "Número de incidencias asignadas"
+msgstr "Número de tickets asignados"
 
 #: inc/user.class.php:3595 inc/user.class.php:3597 inc/user.class.php:3602
 msgid "Import a user"
