@@ -68,3 +68,35 @@
   inc\computer.class.php:537                         CommonDBTM->showFormButtons()
   inc\commonglpi.class.php:472                       Computer->showForm()
   ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-27 15:18:11 [2@DESKTOP-JGTU9PL]
+  *** MySQL query error:
+  SQL: SELECT *
+                FROM `glpi_plugin_fields_ticketcomunicacionessolicitudes` WHERE plugin_fields_containers_id = 3 AND items_id = 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+  Backtrace :
+  inc\commondbtm.class.php:331                       
+  plugins\fields\inc\field.class.php:602             CommonDBTM->find()
+  plugins\fields\inc\field.class.php:499             PluginFieldsField::prepareHtmlFields()
+  plugins\fields\inc\field.class.php:579             PluginFieldsField::showDomContainer()
+  inc\plugin.class.php:1272                          PluginFieldsField::showForTab()
+  inc\ticket.class.php:5214                          Plugin::doHook()
+  inc\tickettemplate.class.php:542                   Ticket->showForm()
+  inc\tickettemplate.class.php:329                   TicketTemplate::showCentralPreview()
+  inc\commonglpi.class.php:482                       TicketTemplate::displayTabContentForItem()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-27 15:21:35 [2@DESKTOP-JGTU9PL]
+  *** MySQL query error:
+  SQL: SELECT *
+                FROM `glpi_plugin_fields_ticketcomunicacionessolicitudes` WHERE plugin_fields_containers_id = 3 AND items_id = 
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+  Backtrace :
+  inc\commondbtm.class.php:331                       
+  plugins\fields\inc\field.class.php:602             CommonDBTM->find()
+  plugins\fields\inc\field.class.php:499             PluginFieldsField::prepareHtmlFields()
+  plugins\fields\inc\field.class.php:579             PluginFieldsField::showDomContainer()
+  inc\plugin.class.php:1272                          PluginFieldsField::showForTab()
+  inc\ticket.class.php:5214                          Plugin::doHook()
+  inc\tickettemplate.class.php:542                   Ticket->showForm()
+  inc\tickettemplate.class.php:329                   TicketTemplate::showCentralPreview()
+  inc\commonglpi.class.php:482                       TicketTemplate::displayTabContentForItem()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()

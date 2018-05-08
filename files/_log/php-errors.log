@@ -315,3 +315,59 @@ Función no definida CronTask::cronoptimize (para cron)
 Función no definida CronTask::cronoptimize (para cron)
 2018-04-24 17:14:16 [@DESKTOP-JGTU9PL]
 Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 14:45:03 [@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 14:47:09 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 14:52:22 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 14:58:16 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 14:59:13 [2@DESKTOP-JGTU9PL]
+  From PluginFieldsContainer::getSubtypes() in C:\xampp\htdocs\glpi\plugins\fields\inc\container.class.php line 1511
+  Item type Computer does not have any preconfigured subtypes! 
+2018-04-27 15:04:02 [@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 15:05:07 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 15:10:11 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 15:13:24 [2@DESKTOP-JGTU9PL]
+  From PluginFieldsContainer::getSubtypes() in C:\xampp\htdocs\glpi\plugins\fields\inc\container.class.php line 1511
+  Item type Computer does not have any preconfigured subtypes! 
+2018-04-27 15:15:39 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 15:17:51 [2@DESKTOP-JGTU9PL]
+  *** PHP Notice(8): Undefined index: entities_id
+  Backtrace :
+  plugins\fields\inc\field.class.php:550             
+  inc\plugin.class.php:1272                          PluginFieldsField::showForTab()
+  inc\ticket.class.php:4090                          Plugin::doHook()
+  inc\tickettemplate.class.php:561                   Ticket->showFormHelpdesk()
+  inc\tickettemplate.class.php:333                   TicketTemplate::showHelpdeskPreview()
+  inc\commonglpi.class.php:482                       TicketTemplate::displayTabContentForItem()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-27 15:18:16 [2@DESKTOP-JGTU9PL]
+  *** PHP Notice(8): Undefined index: entities_id
+  Backtrace :
+  plugins\fields\inc\field.class.php:550             
+  inc\plugin.class.php:1272                          PluginFieldsField::showForTab()
+  inc\ticket.class.php:4090                          Plugin::doHook()
+  inc\tickettemplate.class.php:561                   Ticket->showFormHelpdesk()
+  inc\tickettemplate.class.php:333                   TicketTemplate::showHelpdeskPreview()
+  inc\commonglpi.class.php:482                       TicketTemplate::displayTabContentForItem()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-27 15:20:46 [2@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
+2018-04-27 15:21:37 [2@DESKTOP-JGTU9PL]
+  *** PHP Notice(8): Undefined index: entities_id
+  Backtrace :
+  plugins\fields\inc\field.class.php:550             
+  inc\plugin.class.php:1272                          PluginFieldsField::showForTab()
+  inc\ticket.class.php:4090                          Plugin::doHook()
+  inc\tickettemplate.class.php:561                   Ticket->showFormHelpdesk()
+  inc\tickettemplate.class.php:333                   TicketTemplate::showHelpdeskPreview()
+  inc\commonglpi.class.php:482                       TicketTemplate::displayTabContentForItem()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-04-27 15:58:10 [18@DESKTOP-JGTU9PL]
+Función no definida CronTask::cronoptimize (para cron)
